@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
+import java.time.Duration;
 import java.util.List;
 
 public class ElementsActions {
@@ -141,7 +142,7 @@ public class ElementsActions {
             {
                 WebElement element=find(locator);
                 scroll(locator);
-                new Actions(driver1).moveToElement(element).perform();
+                new Actions(driver1,Duration.ofSeconds(5)).moveToElement(element).perform();
                 return true;
             }
             catch (Exception e)
@@ -149,6 +150,17 @@ public class ElementsActions {
                 return false;
             }
         });
+    }
+    public void hover2(By locator)
+    {
+        WebElement element = wait.fluentWait()
+                .until(ExpectedConditions.elementToBeClickable(locator));
+        scroll(locator);
+
+        new Actions(driver)
+                .moveToElement(element)
+                .pause(Duration.ofSeconds(4))
+                .perform();
     }
 
     //find  element

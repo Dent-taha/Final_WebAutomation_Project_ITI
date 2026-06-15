@@ -2,15 +2,16 @@ package com.project.Pages;
 
 import com.project.drivers.GUI;
 import com.project.utils.dataReader.PropertyReader;
+import groovy.util.logging.Log;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 
-public class Login
+public class LoginPage
 
 
 {
     private final GUI driver;
-    public Login(GUI driver) {
+    public LoginPage(GUI driver) {
         this.driver=driver;
     }
     //var
@@ -34,60 +35,134 @@ public class Login
     private final By headerAccountName=By.cssSelector("div[class='header-links'] a[href='/customer/info']");
 
 
+    private final By recoveryButton=By.cssSelector("div[class='buttons'] input[type='submit']");
+    private final  By emailRecoveryField=By.id("Email");
+    private final By recoveryErrMsg=By.cssSelector("span span[for='Email']");
+    private final By recoverSuccessfulMsg=By.cssSelector("div div[class=result]");
+    private final By recoverFailedMsg=By.cssSelector("div div[class=result]");
+
+
+
+
     // actions
+
     @Step("navigate to  login  page  ")
-    public Login navigate()
+    public LoginPage navigate()
     {
         driver.browserActions().navigate(PropertyReader.getProperty("baseURLWeb")+endPoint);
         return this;
     }
     @Step("enter  credentials")
-    public Login enterLoginData(String email,String password)
+    public LoginPage enterLoginData(String email, String password)
     {
         driver.elementsActions().type(emailField,email);
         driver.elementsActions().type(passwordField,password);
         return this;
     }
     @Step("click  login ")
-    public Login clickLogin()
+    public LoginPage clickLogin()
     {
      driver.elementsActions().click(loginButton);
      return this;
     }
     @Step("click  register ")
-    public Login clickRegister()
+    public LoginPage clickRegister()
     {
         driver.elementsActions().click(registerButton);
         return this;
     }
 
-    public  Login forgetPass()
+    public LoginPage forgetPass()
     {
         driver.elementsActions().click(passwordRecovery);
+        return this;
+    }
+    public  LoginPage enterRecoverAccount(String account)
+    {
+        driver.elementsActions().type(emailRecoveryField,account);
+        return this;
+    }
+    public LoginPage clickRecover()
+    {
+        driver.elementsActions().click(recoveryButton);
         return this;
     }
 
     //  validations
 
-    public  Login verifyLoginPage(String  msg)
+    public LoginPage verifyLoginPage(String  msg)
     {
         String loginMessage=driver.elementsActions().getTxt(welcomeMsg);
         driver.verify().assertEquals(loginMessage,msg);
         return this;
     }
 
-    public Login verifyEmptyErrMsg(String msg)
+    public LoginPage verifyEmptyErrMsg(String msg)
     {
         String actualMsg=driver.elementsActions().getTxt(emptyMsg);
         driver.verify().assertEquals(actualMsg,msg);
         return this;
     }
-    public Login verifyWrongFormMessage(String msg)
+    public LoginPage verifyWrongFormMessage(String msg)
     {
         String  actualMsg=driver.elementsActions().getTxt(invalidFormAccount);
         driver.verify().assertEquals(actualMsg,msg);
         return this;
     }
+    public LoginPage verifyWrongAccountErrMsg(String msg)
+    {
+        String actualMsg=driver.elementsActions().getTxt(wrongAccount);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+    public LoginPage verifyWrongPasswordMsg(String msg)
+    {
+        String actualMsg=driver.elementsActions().getTxt(wrongPassMsg);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+    public LoginPage verifySuccessfulLogin(String msg)
+    {
+        String  actualMsg=driver.elementsActions().getTxt(headerAccountName);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+
+    public LoginPage verifyRegisterButton(String expectedLink)
+    {
+        String actualLink=driver.browserActions().getCurrentUrl();
+        driver.verify().assertEquals(actualLink,expectedLink);
+        return this;
+    }
+
+    //
+    public LoginPage verifySuccessfulRecovery(String msg)
+    {
+        String actualMsg=driver.elementsActions().getTxt(recoverSuccessfulMsg);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+    public LoginPage verifyFailedRecovery(String msg)
+    {
+        String actualMsg=driver.elementsActions().getTxt(recoverSuccessfulMsg);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+
+    public LoginPage verifyWrongAccountFormRecovery(String msg)
+    {
+        String actualMsg=driver.elementsActions().getTxt(recoveryErrMsg);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+
+    public LoginPage verifyEmptyAccountRecovery(String msg)
+    {
+        String actualMsg=driver.elementsActions().getTxt(recoveryErrMsg);
+        driver.verify().assertEquals(actualMsg,msg);
+        return this;
+    }
+
 
 
 }

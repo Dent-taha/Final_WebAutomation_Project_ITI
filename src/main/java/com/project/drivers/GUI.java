@@ -12,7 +12,7 @@ import java.util.Objects;
 
 public class GUI {
 
-private String browser= PropertyReader.getProperty("browserType");
+private String browser= PropertyReader.getProperty("browserType");;
 private ThreadLocal<WebDriver> driverThreadLocal=new ThreadLocal<>();
 
 

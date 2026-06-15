@@ -1,3 +1,5 @@
+package Base;
+
 import com.project.drivers.GUI;
 import com.project.drivers.WebDriverProvider;
 import com.project.utils.dataReader.JsonReader;

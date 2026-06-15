@@ -8,13 +8,10 @@ import com.project.utils.Media.ScreenShot;
 import com.project.utils.Validation.SoftAssert;
 import com.project.utils.dataReader.PropertyReader;
 import com.project.utils.logs.logsManager;
-import com.project.utils.reports.AllureAttachmentManager;
 import com.project.utils.reports.AllureEnv;
 import com.project.utils.reports.AllurerReportGenerator;
 import org.openqa.selenium.WebDriver;
 import org.testng.*;
-
-import java.lang.reflect.Method;
 
 public class TestNGListener implements IExecutionListener, IInvokedMethodListener, ITestListener {
 

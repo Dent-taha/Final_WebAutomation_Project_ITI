@@ -1,0 +1,22 @@
+{
+  "valid":
+  {
+    "email": "test@test.iti",
+    "password": "p@ssword"
+  },
+  "message":
+  {
+    "welcome": "Welcome, Please Sign In!",
+    "wrongForm": "Please enter a valid email address.",
+    "wrongAccount": "No customer account found",
+    "wrongPass": "The credentials provided are incorrect",
+    "emptyData": "Login was unsuccessful. Please correct the errors and try again."
+  },
+  "messageRecovery":
+  {
+    "success": "Email with instructions has been sent to you.",
+    "empty": "Enter your email",
+    "wrongAccount": "Email not found.",
+    "wrongForm": "Wrong email"
+  }
+}

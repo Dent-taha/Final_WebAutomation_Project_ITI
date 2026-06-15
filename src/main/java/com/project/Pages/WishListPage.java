@@ -1,4 +1,10 @@
 package com.project.Pages;
 
-public class WishListPage {
+import com.project.drivers.GUI;
+
+public class
+
+WishListPage {
+    public WishListPage(GUI driver) {
+    }
 }

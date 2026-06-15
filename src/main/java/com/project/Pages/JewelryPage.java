@@ -1,4 +1,9 @@
 package com.project.Pages;
 
-public class JewelryPage {
+import com.project.drivers.GUI;
+
+public class 
+JewelryPage {
+    public JewelryPage(GUI driver) {
+    }
 }

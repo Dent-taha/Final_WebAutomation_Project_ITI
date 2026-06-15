@@ -1,0 +1,25 @@
+{
+  "valid":
+  {
+    "gender": "male",
+    "first": "Automation_test",
+    "last": "Automation_last",
+    "email": "Automation",
+    "password": "p@ssword",
+    "confirm": "p@ssword"
+  },
+  "message":
+  {
+    "successfulRegistration":"Your registration completed",
+    "accountExisted": "The specified email already exists"
+
+  },
+  "errorMessage":
+  {
+    "firstName": "First name is required.",
+    "lastName": "Last name is required.",
+    "email": "Email is required.",
+    "password": "Password is required.",
+    "confirm": "Password is required."
+  }
+}
