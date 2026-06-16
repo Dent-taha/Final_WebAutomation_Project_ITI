@@ -1,2 +1,7 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","7506","verifyTheProductISSavedAfterLogin","Default Suite","2026-06-16","passed","2026-06-16","UITests.CartFunctionalityTest","Final_WebAutomation","UITests.CartFunctionalityTest","verifyTheProductISSavedAfterLogin"
+"","3734","pay","Default Suite","2026-06-17","passed","2026-06-17","UITests.E2ETest","Final_WebAutomation","UITests.E2ETest","pay"
+"","1346","checkOut","Default Suite","2026-06-17","passed","2026-06-17","UITests.E2ETest","Final_WebAutomation","UITests.E2ETest","checkOut"
+"","1584","login","Default Suite","2026-06-17","passed","2026-06-17","UITests.E2ETest","Final_WebAutomation","UITests.E2ETest","login"
+"","3022","addProduct","Default Suite","2026-06-17","passed","2026-06-17","UITests.E2ETest","Final_WebAutomation","UITests.E2ETest","addProduct"
+"","4680","addNewAddress","Default Suite","2026-06-17","passed","2026-06-17","UITests.E2ETest","Final_WebAutomation","UITests.E2ETest","addNewAddress"
+"","4949","register","Default Suite","2026-06-17","passed","2026-06-17","UITests.E2ETest","Final_WebAutomation","UITests.E2ETest","register"
