@@ -1,7 +1,2 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1016","verifyAccountInfo","Default Suite","2026-06-16","passed","2026-06-16","UITests.ChangingAccountInfoE2ETest","Final_WebAutomation","UITests.ChangingAccountInfoE2ETest","verifyAccountInfo"
-"","1538","verifyLoginWithNewPassword","Default Suite","2026-06-16","passed","2026-06-16","UITests.ChangingAccountInfoE2ETest","Final_WebAutomation","UITests.ChangingAccountInfoE2ETest","verifyLoginWithNewPassword"
-"","4352","addNewAddress","Default Suite","2026-06-16","passed","2026-06-16","UITests.ChangingAccountInfoE2ETest","Final_WebAutomation","UITests.ChangingAccountInfoE2ETest","addNewAddress"
-"","1919","login","Default Suite","2026-06-16","passed","2026-06-16","UITests.ChangingAccountInfoE2ETest","Final_WebAutomation","UITests.ChangingAccountInfoE2ETest","login"
-"","1514","changePassword","Default Suite","2026-06-16","passed","2026-06-16","UITests.ChangingAccountInfoE2ETest","Final_WebAutomation","UITests.ChangingAccountInfoE2ETest","changePassword"
-"","4003","registration","Default Suite","2026-06-16","passed","2026-06-16","UITests.ChangingAccountInfoE2ETest","Final_WebAutomation","UITests.ChangingAccountInfoE2ETest","registration"
+"","7506","verifyTheProductISSavedAfterLogin","Default Suite","2026-06-16","passed","2026-06-16","UITests.CartFunctionalityTest","Final_WebAutomation","UITests.CartFunctionalityTest","verifyTheProductISSavedAfterLogin"

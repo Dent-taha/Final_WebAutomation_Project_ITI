@@ -16,6 +16,13 @@ public class RegisterPage {
     String endPoint="/register";
 
     //  locators
+    private final By logout=By.xpath("//a[@href='/logout']");
+
+    public RegisterPage logout()
+    {
+        driver.elementsActions().click(logout);
+        return this;
+    }
     private final By registrationMsg= By.cssSelector(".page-title h1");
     private final  By selectGender(String gender)
     {
