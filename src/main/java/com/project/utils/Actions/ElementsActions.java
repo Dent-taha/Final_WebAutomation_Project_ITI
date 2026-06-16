@@ -162,6 +162,14 @@ public class ElementsActions {
                 .pause(Duration.ofSeconds(4))
                 .perform();
     }
+    public  String  getValue(By locator)
+    {
+        wait.fluentWait()
+                .until(ExpectedConditions.visibilityOfElementLocated(locator));
+        scroll(locator);
+        return find(locator).getAttribute("value");
+
+    }
 
     //find  element
     public WebElement find(By  locator)

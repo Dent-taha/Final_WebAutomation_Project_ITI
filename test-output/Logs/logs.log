@@ -4391,3 +4391,947 @@ INFO: APP_HOME is not set, using default configuration
 [INFO] 16-06-2026 00:48:11 [main] [com.project.utils.TerminalUtils] - STDOUT: 
 [INFO] 16-06-2026 00:48:11 [main] [com.project.utils.TerminalUtils] - STDERR: 
 [INFO] 16-06-2026 00:48:11 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[INFO] 16-06-2026 01:34:41 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 01:34:41 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 01:34:41 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 01:34:41 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 01:34:41 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 01:34:41 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 01:34:41 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 01:34:41 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 01:34:41 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 01:34:41 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 01:34:42 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:34:47 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:34:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:34:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['availability']
+[DEBUG] 16-06-2026 01:34:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] 16-06-2026 01:34:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['id']
+[DEBUG] 16-06-2026 01:34:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['addToCart']
+[DEBUG] 16-06-2026 01:34:50 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:34:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:34:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['availability']
+[DEBUG] 16-06-2026 01:34:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['price']
+[DEBUG] 16-06-2026 01:34:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['id']
+[DEBUG] 16-06-2026 01:34:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['addToCart']
+[DEBUG] 16-06-2026 01:34:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:34:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['price']
+[INFO] 16-06-2026 01:34:58 [main] [com.project.Pages.ApparelShoesPage] - actual name: Blue and green Sneaker
+[INFO] 16-06-2026 01:34:58 [main] [com.project.Pages.ApparelShoesPage] - actual  price : 11.00
+[DEBUG] 16-06-2026 01:34:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:34:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] 16-06-2026 01:34:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['total']
+[INFO] 16-06-2026 01:34:58 [main] [com.project.Pages.ApparelShoesPage] - Total Price is  : 12.00
+[INFO] 16-06-2026 01:34:58 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:34:58 [main] [com.project.CutomListeners.TestNGListener] - test case:  addingTowProductsAndVerifyShortCutCartIcon  passed
+[INFO] 16-06-2026 01:34:58 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:35:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:35:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:35:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:35:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['price']
+[DEBUG] 16-06-2026 01:35:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['href']
+[INFO] 16-06-2026 01:35:05 [main] [com.project.Pages.ApparelShoesPage] - actual name Blue Jeans
+[INFO] 16-06-2026 01:35:05 [main] [com.project.Pages.ApparelShoesPage] - actual price 1.00
+[DEBUG] 16-06-2026 01:35:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:35:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['price']
+[DEBUG] 16-06-2026 01:35:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['href']
+[INFO] 16-06-2026 01:35:05 [main] [com.project.Pages.ApparelShoesPage] - actual name Blue and green Sneaker
+[INFO] 16-06-2026 01:35:05 [main] [com.project.Pages.ApparelShoesPage] - actual price 11.00
+[INFO] 16-06-2026 01:35:05 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:35:05 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAddingTowProductsInCompareList  passed
+[INFO] 16-06-2026 01:35:05 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:35:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:35:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:35:12 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['emptyList']
+[INFO] 16-06-2026 01:35:12 [main] [com.project.Pages.ApparelShoesPage] - actual empty message: You have no items to compare.
+[INFO] 16-06-2026 01:35:12 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:35:12 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyEmptyList  passed
+[INFO] 16-06-2026 01:35:13 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:35:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:35:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['addToCart']
+[INFO] 16-06-2026 01:35:16 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:35:16 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyMessageAddedToCartProduct1  passed
+[INFO] 16-06-2026 01:35:17 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:35:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:35:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['name']
+[DEBUG] 16-06-2026 01:35:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['availability']
+[DEBUG] 16-06-2026 01:35:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['price']
+[DEBUG] 16-06-2026 01:35:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product2']['id']
+[DEBUG] 16-06-2026 01:35:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['addToCart']
+[INFO] 16-06-2026 01:35:21 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:35:21 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyProductDetailsAndToCart  passed
+[INFO] 16-06-2026 01:35:21 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:35:25 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['email']
+[DEBUG] 16-06-2026 01:35:25 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['password']
+[DEBUG] 16-06-2026 01:35:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['login']['email']
+[DEBUG] 16-06-2026 01:35:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:35:42 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['topic']
+[DEBUG] 16-06-2026 01:35:42 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['title']
+[DEBUG] 16-06-2026 01:35:42 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['review']['veryGood']
+[DEBUG] 16-06-2026 01:35:55 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successReview']
+[INFO] 16-06-2026 01:35:55 [main] [com.project.Pages.ApparelShoesPage] - actual success message:  Product review is successfully added.
+[INFO] 16-06-2026 01:35:55 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:35:55 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyReviewWithLogin  passed
+[INFO] 16-06-2026 01:35:55 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:35:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['product1']['name']
+[DEBUG] 16-06-2026 01:36:03 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['errorReview']
+[INFO] 16-06-2026 01:36:03 [main] [com.project.Pages.ApparelShoesPage] - actual error  message:  Only registered users can write reviews
+[INFO] 16-06-2026 01:36:03 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:03 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyReviewWithoutLogin  passed
+[INFO] 16-06-2026 01:36:04 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['homePage']
+[INFO] 16-06-2026 01:36:06 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:06 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyHomeMessage  passed
+[DEBUG] 16-06-2026 01:36:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messages']['emptyCart']
+[INFO] 16-06-2026 01:36:06 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:06 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyCartEmptyMessage  passed
+[INFO] 16-06-2026 01:36:07 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['emptyData']
+[INFO] 16-06-2026 01:36:10 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:10 [main] [com.project.CutomListeners.TestNGListener] - test case:  invalidLoginEmptyData  passed
+[INFO] 16-06-2026 01:36:10 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 01:36:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['wrongAccount']
+[INFO] 16-06-2026 01:36:14 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:14 [main] [com.project.CutomListeners.TestNGListener] - test case:  invalidLoginInvalidAccount  passed
+[INFO] 16-06-2026 01:36:15 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['wrongForm']
+[INFO] 16-06-2026 01:36:18 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:18 [main] [com.project.CutomListeners.TestNGListener] - test case:  invalidLoginInvalidAccountForm  passed
+[INFO] 16-06-2026 01:36:18 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 01:36:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['wrongPass']
+[INFO] 16-06-2026 01:36:22 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:22 [main] [com.project.CutomListeners.TestNGListener] - test case:  invalidLoginInvalidPassword  passed
+[INFO] 16-06-2026 01:36:22 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 01:36:25 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:25 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyActionOfRegisterButton  passed
+[INFO] 16-06-2026 01:36:25 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:29 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messageRecovery']['empty']
+[INFO] 16-06-2026 01:36:29 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:29 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyEmptyAccountFormRecovery  passed
+[INFO] 16-06-2026 01:36:29 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messageRecovery']['success']
+[INFO] 16-06-2026 01:36:33 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:33 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyPasswordRecovery  passed
+[INFO] 16-06-2026 01:36:33 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 01:36:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:36 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 01:36:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 01:36:37 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:37 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyValidLogin  passed
+[INFO] 16-06-2026 01:36:37 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:41 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messageRecovery']['wrongForm']
+[INFO] 16-06-2026 01:36:41 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:41 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyWrongAccountFormRecovery  passed
+[INFO] 16-06-2026 01:36:41 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:44 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:45 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['messageRecovery']['wrongAccount']
+[INFO] 16-06-2026 01:36:45 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:45 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyWrongEmailRecovery  passed
+[INFO] 16-06-2026 01:36:45 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 01:36:48 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 01:36:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 01:36:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 01:36:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 01:36:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 01:36:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 01:36:50 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 01:36:50 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 01:36:50 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:50 [main] [com.project.CutomListeners.TestNGListener] - test case:  validRegistration  passed
+[INFO] 16-06-2026 01:36:50 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:54 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 01:36:54 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 01:36:54 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 01:36:54 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 01:36:54 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 01:36:54 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 01:36:55 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['accountExisted']
+[INFO] 16-06-2026 01:36:55 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:55 [main] [com.project.CutomListeners.TestNGListener] - test case:  invalidRegistrationUsingTheSameAccount  passed
+[INFO] 16-06-2026 01:36:55 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[DEBUG] 16-06-2026 01:36:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['errorMessage']['firstName']
+[DEBUG] 16-06-2026 01:36:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['errorMessage']['lastName']
+[DEBUG] 16-06-2026 01:36:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['errorMessage']['email']
+[DEBUG] 16-06-2026 01:36:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['errorMessage']['password']
+[DEBUG] 16-06-2026 01:36:58 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['errorMessage']['confirm']
+[INFO] 16-06-2026 01:36:59 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 01:36:59 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyEmptyRegistrationData  passed
+[INFO] 16-06-2026 01:36:59 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 01:37:03 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 01:37:03 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 01:37:03 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 1:37:00 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 01:37:06 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 01:37:06 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 01:37:06 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 1:37:03 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 01:37:06 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 01:37:07 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 01:37:07 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 01:37:07 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 01:37:07 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 03:40:21 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 03:40:22 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 03:40:22 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 03:40:22 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:40:22 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 03:40:22 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 03:40:22 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:40:22 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 03:40:22 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 03:40:22 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 03:40:22 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 03:40:22 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 03:40:22 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 03:40:27 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 03:40:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 03:40:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 03:40:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 03:40:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 03:40:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 03:40:27 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 03:40:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 03:40:28 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 03:40:28 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  failed
+[INFO] 16-06-2026 03:40:28 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  skipped
+[INFO] 16-06-2026 03:40:28 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  skipped
+[INFO] 16-06-2026 03:40:28 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 03:40:31 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:40:31 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 03:40:31 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:40:29 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:40:31 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 03:40:33 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 03:40:33 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 03:41:28 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 03:41:29 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 03:41:29 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 03:41:29 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:41:29 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 03:41:29 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 03:41:29 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:41:29 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 03:41:29 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 03:41:29 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 03:41:29 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 03:41:29 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 03:41:29 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 03:41:32 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 03:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 03:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 03:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 03:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 03:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 03:41:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 03:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 03:41:34 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 03:41:34 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 03:41:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[INFO] 16-06-2026 03:41:34 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  failed
+[INFO] 16-06-2026 03:41:34 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  skipped
+[INFO] 16-06-2026 03:41:34 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 03:41:37 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:41:37 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 03:41:37 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:41:35 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:41:38 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:41:38 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 03:41:38 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:41:37 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:41:38 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 03:41:39 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:41:39 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 03:41:39 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 03:41:39 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 03:42:14 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 03:42:14 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 03:42:14 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 03:42:14 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:42:14 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 03:42:14 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 03:42:14 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:42:14 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 03:42:14 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 03:42:15 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 03:42:15 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 03:42:15 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 03:42:15 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 03:42:18 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 03:42:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 03:42:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 03:42:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 03:42:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 03:42:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 03:42:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 03:42:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 03:42:19 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 03:42:19 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 03:42:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 03:42:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 03:42:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 03:42:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 03:42:21 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  failed
+[INFO] 16-06-2026 03:42:21 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  skipped
+[INFO] 16-06-2026 03:42:21 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 03:42:23 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:42:23 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 03:42:23 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:42:22 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:42:24 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 03:42:25 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 03:42:25 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 03:43:01 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 03:43:01 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 03:43:02 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 03:43:02 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:43:02 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 03:43:02 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 03:43:02 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 03:43:02 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 03:43:02 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 03:43:02 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 03:43:02 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 03:43:02 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 03:43:02 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 03:43:05 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 03:43:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 03:43:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 03:43:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 03:43:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 03:43:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 03:43:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 03:43:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 03:43:06 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 03:43:06 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 03:43:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 03:43:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 03:43:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 03:43:07 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 03:43:08 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 03:43:08 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 03:43:08 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 03:43:08 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_03-43-02@gmail.com
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 03:43:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 03:43:08 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 03:43:08 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 03:43:09 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_03-43-02@gmail.com
+[INFO] 16-06-2026 03:43:09 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[INFO] 16-06-2026 03:43:09 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 03:43:11 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:43:11 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 03:43:11 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:43:09 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 3:43:11 AM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 03:43:13 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 03:43:13 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 14:03:07 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 14:03:08 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 14:03:08 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 14:03:08 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:03:08 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 14:03:08 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 14:03:08 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:03:08 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 14:03:08 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 14:03:09 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 14:03:09 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 14:03:09 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 14:03:09 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 14:03:14 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 14:03:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 14:03:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:03:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:03:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:03:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:03:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 14:03:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 14:03:16 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 14:03:17 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 14:03:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:03:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:03:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:03:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:03:18 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:03:19 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 14:03:19 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:03:19 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-03-09@gmail.com
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:03:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:03:19 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 14:03:19 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:03:19 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-03-09@gmail.com
+[INFO] 16-06-2026 14:03:19 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:03:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address12']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['country']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:03:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[ERROR] 16-06-2026 14:03:27 [main] [com.project.utils.Actions.ElementsActions] - text  not found
+[INFO] 16-06-2026 14:03:27 [main] [com.project.CutomListeners.TestNGListener] - test case:  addNewAddress  failed
+[INFO] 16-06-2026 14:03:28 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 14:03:31 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:03:31 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 14:03:31 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:03:29 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:03:34 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:03:34 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 14:03:34 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:03:32 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:03:34 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 14:03:35 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:03:35 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 14:03:35 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 14:03:35 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 14:05:22 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 14:05:23 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 14:05:23 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 14:05:23 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:05:23 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 14:05:23 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 14:05:23 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:05:23 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 14:05:23 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 14:05:23 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 14:05:23 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 14:05:23 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 14:05:24 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 14:05:28 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 14:05:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 14:05:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:05:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:05:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:05:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:05:28 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 14:05:30 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 14:05:30 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 14:05:30 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:05:30 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 14:05:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:05:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:05:31 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:05:32 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:05:32 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:05:32 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:05:33 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 14:05:33 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:05:33 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-05-23@gmail.com
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:05:33 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:05:33 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 14:05:33 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:05:33 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-05-23@gmail.com
+[INFO] 16-06-2026 14:05:33 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:05:33 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:05:34 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address12']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['country']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:05:37 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual phone number: {} Phone number: 123456789
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual fax number: {} Fax number: 54321
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual address 1: {} address1
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual address 2: {} address2
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual country: {} Egypt
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual city/state/zip: {} city, 12345
+[INFO] 16-06-2026 14:05:37 [main] [com.project.Pages.MyAccountPage] - Actual company: {} company
+[INFO] 16-06-2026 14:05:38 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:05:38 [main] [com.project.CutomListeners.TestNGListener] - test case:  addNewAddress  failed
+[INFO] 16-06-2026 14:05:38 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 14:05:42 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:05:42 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 14:05:42 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:05:39 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:05:42 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 14:05:45 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 14:05:45 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 14:07:41 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 14:07:42 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 14:07:42 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 14:07:42 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:07:42 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 14:07:42 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 14:07:42 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:07:42 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 14:07:42 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 14:07:42 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 14:07:42 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 14:07:42 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 14:07:42 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 14:07:46 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 14:07:46 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 14:07:46 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:07:46 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:07:46 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:07:46 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:07:46 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 14:07:48 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 14:07:49 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 14:07:49 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:07:49 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 14:07:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:07:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:07:49 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:07:50 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:07:51 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:07:51 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 14:07:51 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:07:51 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:07:51 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:07:51 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 14:07:51 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:07:52 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-07-42@gmail.com
+[DEBUG] 16-06-2026 14:07:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:07:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:07:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:07:52 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:07:52 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 14:07:52 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:07:52 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-07-42@gmail.com
+[INFO] 16-06-2026 14:07:52 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:07:52 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:07:53 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address12']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['country']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:07:56 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual phone number: {} Phone number: 123456789
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual fax number: {} Fax number: 54321
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual address 1: {} address1
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual address 2: {} address2
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual country: {} Egypt
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual city/state/zip: {} city, 12345
+[INFO] 16-06-2026 14:07:56 [main] [com.project.Pages.MyAccountPage] - Actual company: {} company
+[INFO] 16-06-2026 14:07:56 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:07:56 [main] [com.project.CutomListeners.TestNGListener] - test case:  addNewAddress  failed
+[INFO] 16-06-2026 14:07:56 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 14:08:00 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:08:00 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 14:08:00 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:07:58 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:08:03 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:08:03 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 14:08:03 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:08:01 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:08:03 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 14:08:04 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:08:04 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 14:08:04 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 14:08:04 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 14:09:12 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 14:09:13 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 14:09:13 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 14:09:13 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:09:13 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 14:09:13 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 14:09:13 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:09:13 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 14:09:13 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 14:09:13 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 14:09:13 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 14:09:14 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 14:09:14 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 14:09:17 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 14:09:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 14:09:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:09:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:09:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:09:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:09:18 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 14:09:19 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 14:09:19 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 14:09:20 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:09:20 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 14:09:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:09:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:09:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:09:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:09:22 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:09:22 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:09:22 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 14:09:22 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:09:22 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-09-13@gmail.com
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:09:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:09:22 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 14:09:23 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:09:23 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-09-13@gmail.com
+[INFO] 16-06-2026 14:09:23 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:09:23 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:09:24 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address12']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['country']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:09:26 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[INFO] 16-06-2026 14:09:26 [main] [com.project.Pages.MyAccountPage] - Actual phone number: {} Phone number: 123456789
+[INFO] 16-06-2026 14:09:26 [main] [com.project.Pages.MyAccountPage] - Actual fax number: {} Fax number: 54321
+[INFO] 16-06-2026 14:09:26 [main] [com.project.Pages.MyAccountPage] - Actual address 1: {} address1
+[INFO] 16-06-2026 14:09:26 [main] [com.project.Pages.MyAccountPage] - Actual address 2: {} address2
+[INFO] 16-06-2026 14:09:27 [main] [com.project.Pages.MyAccountPage] - Actual country: {} Egypt
+[INFO] 16-06-2026 14:09:27 [main] [com.project.Pages.MyAccountPage] - Actual city/state/zip: {} city, 12345
+[INFO] 16-06-2026 14:09:27 [main] [com.project.Pages.MyAccountPage] - Actual company: {} company
+[INFO] 16-06-2026 14:09:27 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:09:27 [main] [com.project.CutomListeners.TestNGListener] - test case:  addNewAddress  failed
+[INFO] 16-06-2026 14:09:27 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 14:09:31 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:09:31 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 14:09:31 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:09:28 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:09:31 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 14:09:34 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 14:09:34 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 14:09:56 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 14:09:57 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 14:09:57 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 14:09:57 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:09:57 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 14:09:57 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 14:09:57 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:09:57 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 14:09:57 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 14:09:57 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 14:09:57 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 14:09:58 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 14:09:58 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 14:10:02 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 14:10:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 14:10:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:10:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:10:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:10:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:10:02 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 14:10:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 14:10:04 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 14:10:04 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:10:04 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 14:10:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:10:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:10:04 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:10:05 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:10:06 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:10:06 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:10:06 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 14:10:06 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:10:06 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-09-58@gmail.com
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:10:06 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:10:06 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 14:10:07 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:10:07 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-09-58@gmail.com
+[INFO] 16-06-2026 14:10:07 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:10:07 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:10:08 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['country']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:10:10 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[INFO] 16-06-2026 14:10:10 [main] [com.project.Pages.MyAccountPage] - Actual phone number: {} Phone number: 123456789
+[INFO] 16-06-2026 14:10:10 [main] [com.project.Pages.MyAccountPage] - Actual fax number: {} Fax number: 54321
+[INFO] 16-06-2026 14:10:11 [main] [com.project.Pages.MyAccountPage] - Actual address 1: {} address1
+[INFO] 16-06-2026 14:10:11 [main] [com.project.Pages.MyAccountPage] - Actual address 2: {} address2
+[INFO] 16-06-2026 14:10:11 [main] [com.project.Pages.MyAccountPage] - Actual country: {} Egypt
+[INFO] 16-06-2026 14:10:11 [main] [com.project.Pages.MyAccountPage] - Actual city/state/zip: {} city, 12345
+[INFO] 16-06-2026 14:10:11 [main] [com.project.Pages.MyAccountPage] - Actual company: {} company
+[INFO] 16-06-2026 14:10:11 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:10:11 [main] [com.project.CutomListeners.TestNGListener] - test case:  addNewAddress  passed
+[INFO] 16-06-2026 14:10:11 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 14:10:15 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:10:15 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 14:10:15 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:10:12 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:10:15 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 14:10:18 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 14:10:18 [main] [com.project.CutomListeners.TestNGListener] - test is finished
+[DEBUG] 16-06-2026 14:20:06 [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml"
+[INFO] 16-06-2026 14:20:06 [main] [com.project.CutomListeners.TestNGListener] - test execution test started
+[INFO] 16-06-2026 14:20:07 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\allure-results
+[INFO] 16-06-2026 14:20:07 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:20:07 [main] [com.project.utils.FileUtils] - Deleting  C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\Logs
+[INFO] 16-06-2026 14:20:07 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  cleaned
+[INFO] 16-06-2026 14:20:07 [main] [com.project.utils.FileUtils] - successful creating Dir: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\ScreenShots
+[INFO] 16-06-2026 14:20:07 [main] [com.project.CutomListeners.TestNGListener] - old  test output directories are  created
+[INFO] 16-06-2026 14:20:07 [main] [com.project.CutomListeners.TestNGListener] - properties are  loaded
+[INFO] 16-06-2026 14:20:07 [main] [com.project.utils.reports.AllureEnv] - allure environment variables have set  successfully
+[INFO] 16-06-2026 14:20:07 [main] [com.project.CutomListeners.TestNGListener] - allure  ENV  variable are set
+[INFO] 16-06-2026 14:20:07 [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\hp\AppData\Local\JetBrains\IdeaIC2025.1\temp-testng-customsuite.xml
+
+[INFO] 16-06-2026 14:20:07 [main] [com.project.drivers.GUI] -  browser type  is CHROME
+[INFO] 16-06-2026 14:20:11 [main] [com.project.Pages.RegisterPage] - actual  label: Register
+[DEBUG] 16-06-2026 14:20:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['gender']
+[DEBUG] 16-06-2026 14:20:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:20:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:20:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:20:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:20:11 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['confirm']
+[DEBUG] 16-06-2026 14:20:13 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['successfulRegistration']
+[INFO] 16-06-2026 14:20:13 [main] [com.project.Pages.RegisterPage] - actual message  Your registration completed
+[INFO] 16-06-2026 14:20:13 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:20:13 [main] [com.project.CutomListeners.TestNGListener] - test case:  registration  passed
+[DEBUG] 16-06-2026 14:20:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:20:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:20:14 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:20:15 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:20:15 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:20:15 [main] [com.project.CutomListeners.TestNGListener] - test case:  login  passed
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:20:16 [main] [com.project.Pages.MyAccountPage] - actual first name : Automation_first
+[INFO] 16-06-2026 14:20:16 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:20:16 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-20-07@gmail.com
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newName']
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:20:16 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:20:16 [main] [com.project.Pages.MyAccountPage] - actual first name : new_Automation_First
+[INFO] 16-06-2026 14:20:16 [main] [com.project.Pages.MyAccountPage] - actual last name:  Automation_last
+[INFO] 16-06-2026 14:20:16 [main] [com.project.Pages.MyAccountPage] - actual email:  Automation2026-06-16_02-20-07@gmail.com
+[INFO] 16-06-2026 14:20:16 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:20:16 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyAccountInfo  passed
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['first']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['last']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:20:17 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['phone']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['fax']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address1']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['address2']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['country']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['city']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['zip']
+[DEBUG] 16-06-2026 14:20:20 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['address']['company']
+[INFO] 16-06-2026 14:20:20 [main] [com.project.Pages.MyAccountPage] - Actual phone number: {} Phone number: 123456789
+[INFO] 16-06-2026 14:20:20 [main] [com.project.Pages.MyAccountPage] - Actual fax number: {} Fax number: 54321
+[INFO] 16-06-2026 14:20:20 [main] [com.project.Pages.MyAccountPage] - Actual address 1: {} address1
+[INFO] 16-06-2026 14:20:20 [main] [com.project.Pages.MyAccountPage] - Actual address 2: {} address2
+[INFO] 16-06-2026 14:20:20 [main] [com.project.Pages.MyAccountPage] - Actual country: {} Egypt
+[INFO] 16-06-2026 14:20:20 [main] [com.project.Pages.MyAccountPage] - Actual city/state/zip: {} city, 12345
+[INFO] 16-06-2026 14:20:21 [main] [com.project.Pages.MyAccountPage] - Actual company: {} company
+[INFO] 16-06-2026 14:20:21 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:20:21 [main] [com.project.CutomListeners.TestNGListener] - test case:  addNewAddress  passed
+[DEBUG] 16-06-2026 14:20:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['password']
+[DEBUG] 16-06-2026 14:20:21 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newPass']
+[INFO] 16-06-2026 14:20:22 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:20:22 [main] [com.project.CutomListeners.TestNGListener] - test case:  changePassword  passed
+[DEBUG] 16-06-2026 14:20:22 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['message']['welcome']
+[DEBUG] 16-06-2026 14:20:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[DEBUG] 16-06-2026 14:20:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['newPass']
+[DEBUG] 16-06-2026 14:20:23 [main] [com.jayway.jsonpath.internal.path.CompiledPath] - Evaluating path: $['valid']['email']
+[INFO] 16-06-2026 14:20:24 [main] [com.project.utils.Media.ScreenShot] - successful capture
+[INFO] 16-06-2026 14:20:24 [main] [com.project.CutomListeners.TestNGListener] - test case:  verifyLoginWithNewPassword  passed
+[INFO] 16-06-2026 14:20:24 [main] [com.project.utils.reports.AllurerReportGenerator] - successfully  coping history  file
+[INFO] 16-06-2026 14:20:28 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:20:28 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\full-report
+
+[INFO] 16-06-2026 14:20:28 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:20:25 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.TerminalUtils] - STDOUT: Report successfully generated to C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report
+
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.TerminalUtils] - STDERR: Jun 16, 2026 2:20:28 PM io.qameta.allure.CommandLine main
+INFO: APP_HOME is not set, using default configuration
+
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.FileUtils] -  Target File path: C:\Users\hp\OneDrive\Desktop\Final_WebAutomation\test-output\single-report\index.html was renamed 
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.TerminalUtils] - Exit Code: 0
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.TerminalUtils] - STDOUT: 
+[INFO] 16-06-2026 14:20:31 [main] [com.project.utils.TerminalUtils] - STDERR: 
+[INFO] 16-06-2026 14:20:31 [main] [com.project.CutomListeners.TestNGListener] - test is finished
