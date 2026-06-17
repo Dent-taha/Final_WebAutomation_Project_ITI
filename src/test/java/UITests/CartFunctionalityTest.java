@@ -151,6 +151,7 @@ public class CartFunctionalityTest extends BaseTest {
                 .verifySuccessfulLogin(testData.getJasonKey("valid.email")+timeStamp+"@gmail.com");
 
         new ShoppingCart(driver)
+                .navigate()
                 .clickOnTermAndServicesCheckbox()
                 .checkOut()
                 .verifyCheckout();
