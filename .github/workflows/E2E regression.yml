@@ -1,4 +1,4 @@
-  name: E2E regression
+name: E2E regression
 
 on:
   push:
