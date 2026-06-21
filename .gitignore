@@ -12,8 +12,7 @@ target/
 *.iws
 *.iml
 *.ipr
-*.json
-**/test-output
+**/test-output/*
 
 
 ### Eclipse ###

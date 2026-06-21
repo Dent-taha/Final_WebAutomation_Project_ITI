@@ -13,6 +13,8 @@ import com.project.utils.reports.AllurerReportGenerator;
 import org.openqa.selenium.WebDriver;
 import org.testng.*;
 
+import java.util.Objects;
+
 public class TestNGListener implements IExecutionListener, IInvokedMethodListener, ITestListener {
 
     public void onExecutionStart() {
@@ -65,15 +67,17 @@ public class TestNGListener implements IExecutionListener, IInvokedMethodListene
                 if(testResult.getInstance() instanceof WebDriverProvider provider)
                     driver = provider.getWebDriver();
 
-                switch (testResult.getStatus()) {
-                    case ITestResult.SUCCESS ->
-                            ScreenShot.captureFullPage(driver, "passed " + testResult.getName());
 
-                    case ITestResult.FAILURE ->
-                            ScreenShot.captureFullPage(driver, "failed " + testResult.getName());
+                if (!Objects.equals(PropertyReader.getProperty("executionType"), "LocalHeadless")) {
+                    switch (testResult.getStatus()) {
+                        case ITestResult.SUCCESS ->
+                                ScreenShot.captureFullPage(driver, "passed " + testResult.getName());
 
-                    case ITestResult.SKIP ->
-                            ScreenShot.captureFullPage(driver, "skipped " + testResult.getName());
+                        case ITestResult.FAILURE ->
+                                ScreenShot.captureFullPage(driver, "failed " + testResult.getName());
+
+                        case ITestResult.SKIP -> ScreenShot.captureFullPage(driver, "skipped " + testResult.getName());
+                    }
                 }
             }
 

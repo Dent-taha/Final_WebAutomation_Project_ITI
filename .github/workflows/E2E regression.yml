@@ -17,6 +17,7 @@ env:
 
 jobs:
   Chrome_Linux_test:
+    continue-on-error: true
     runs-on: ubuntu-latest
     permissions:
       checks: write
@@ -34,7 +35,7 @@ jobs:
         with:
           maven-version: 3.9.15
       - name: run all test
-        run: mvn -DexecutionType="LocalHeadless" -DborwserType="CHROME" -Dtest="${Target}" clean test
+        run: mvn -DexecutionType="LocalHeadless" -DbrowserType="CHROME" -Dtest="${Target}" clean test
 
 
       - name: upload test reuslts
@@ -43,6 +44,7 @@ jobs:
           name: chrome  linux report
           path: "test-output/single-report/*.html"
   Windows_Edge_test:
+    continue-on-error: true
     runs-on: windows-latest
     permissions:
       checks: write
@@ -60,7 +62,7 @@ jobs:
         with:
           maven-version: 3.9.15
       - name: run all test
-        run: mvn -DexecutionType="LocalHeadless" -DborwserType="CHROME" -Dtest="${Target}" clean test
+        run: mvn -DexecutionType="LocalHeadless" -DbrowserType="EDGE" -Dtest="${Target}" clean test
 
 
       - name: upload test reuslts

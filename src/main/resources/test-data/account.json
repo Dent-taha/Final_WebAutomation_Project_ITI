@@ -1,0 +1,28 @@
+{
+  "valid": {
+    "gender": "male",
+    "first": "Automation_first_account",
+    "last": "Automation_last_account",
+    "email": "Automation_account",
+    "password": "p@ssword",
+    "confirm": "p@ssword"
+  },
+  "newName": "new_Automation_First",
+  "message":
+  {
+    "successfulRegistration":"Your registration completed",
+    "welcome": "Welcome, Please Sign In!"
+  },
+  "address":
+  {
+    "company": "company",
+    "city": "city",
+    "country": "Egypt",
+    "address1": "address1",
+    "address2": "address2",
+    "zip": "12345",
+    "phone": "123456789",
+    "fax": "54321"
+  },
+  "newPass": "newP@ssword"
+}

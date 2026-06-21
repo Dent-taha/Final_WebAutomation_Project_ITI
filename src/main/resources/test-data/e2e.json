@@ -1,0 +1,54 @@
+{
+  "valid": {
+    "gender": "male",
+    "first": "Automation_first_End",
+    "last": "Automation_last_End",
+    "email": "Automation_account_End",
+    "password": "p@ssword",
+    "confirm": "p@ssword"
+  },
+  "message":
+  {
+    "successfulRegistration":"Your registration completed",
+    "welcome": "Welcome, Please Sign In!",
+    "addToCart": "The product has been added to your shopping cart",
+    "emptyCart": "Your Shopping Cart is empty!",
+    "terms_services": "Please accept the terms of service before the next step.",
+    "confirmOrder": "Your order has been successfully processed!"
+  },
+  "address":
+  {
+    "company": "company",
+    "city": "city",
+    "country": "Egypt",
+    "address1": "address1",
+    "address2": "address2",
+    "zip": "12345",
+    "phone": "123456789",
+    "fax": "54321"
+  },
+  "product1":
+  {
+    "name": "Blue Jeans",
+    "price": "1.00",
+    "total": "1.00",
+    "id": "36",
+    "availability": "In stock",
+    "href": "blue-jeans",
+    "quantity": "1",
+    "increaseQuantity": "3",
+    "increasedTotal": "3.00"
+
+  },
+  "method":
+  {
+    "shipping": "In-Store Pickup",
+    "payment": "Cash On Delivery (COD)"
+
+  },
+  "payment":
+  {
+    "fee": "7.00",
+    "total": "8.00"
+  }
+}

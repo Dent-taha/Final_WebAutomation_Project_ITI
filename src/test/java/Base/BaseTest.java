@@ -15,11 +15,7 @@ public class BaseTest implements WebDriverProvider {
         return driver.getDriver();
     }
 
-@BeforeClass
-    public void beforeClass()
-    {
 
-    }
 
 
 

@@ -1,0 +1,43 @@
+{
+  "valid": {
+    "gender": "male",
+    "first": "Automation_first_cart",
+    "last": "Automation_last_cart",
+    "email": "Automation_cart",
+    "password": "p@ssword",
+    "confirm": "p@ssword"
+  },
+  "product1":
+  {
+    "name": "Blue Jeans",
+    "price": "1.00",
+    "total": "1.00",
+    "id": "36",
+    "availability": "In stock",
+    "href": "blue-jeans",
+    "quantity": "1",
+    "increaseQuantity": "3",
+    "increasedTotal": "3.00"
+
+  },
+  "product2":
+  {
+    "name": "Blue and green Sneaker",
+    "price": "11.00",
+    "id": "28",
+    "total": "11.00",
+    "availability": "In stock",
+    "href": "blue-and-green-sneaker",
+    "quantity": "1"
+  },
+  "totalOrder": "12.00",
+  "message":
+  {
+    "addToCart": "The product has been added to your shopping cart",
+    "emptyCart": "Your Shopping Cart is empty!",
+    "terms_services": "Please accept the terms of service before the next step.",
+    "successfulRegistration":"Your registration completed",
+    "welcome": "Welcome, Please Sign In!"
+  },
+
+}
