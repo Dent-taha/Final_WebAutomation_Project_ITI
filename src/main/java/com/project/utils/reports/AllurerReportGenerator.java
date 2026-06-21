@@ -40,7 +40,7 @@ public static  void generateAllureReport(boolean isSingleFile)
         switch (OSUtils.getCurrentOS())
         {
             case WINDOWS -> TerminalUtils.executeTerminalCommand("cmd.exe","/c","start",reportPath.toString());
-            case MAC,LINUX -> TerminalUtils.executeTerminalCommand("open",reportPath.toString());
+            case MAC,LINUX -> TerminalUtils.executeTerminalCommand("open","\""+reportPath+"\"");
             default -> logsManager.warn("opening  allure report  is  not supported in this os  ");
         }
 

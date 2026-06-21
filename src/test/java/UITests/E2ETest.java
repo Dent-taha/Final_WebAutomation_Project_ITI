@@ -33,7 +33,7 @@ public class E2ETest extends BaseTest {
     @Test(dependsOnMethods = "register")
     public void  login()
     {
-        new LoginPage(driver)
+       new LoginPage(driver)
                 .navigate()
                 .verifyLoginPage(testData.getJasonKey("message.welcome"))
                 .enterLoginData( testData.getJasonKey("valid.email")+timeStamp+"@gmail.com",

@@ -25,8 +25,7 @@ public void verifyCartEmptyMessage()
 {
     new HomePage(driver)
             .hoverOnCart()
-            .verifyEmptyCart(testData.getJasonKey("messages.emptyCart"));
-}
+            .verifyEmptyCart(testData.getJasonKey("messages.emptyCart"));}
 
 
 

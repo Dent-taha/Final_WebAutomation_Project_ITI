@@ -1,6 +1,7 @@
 package com.project.drivers;
 
 import com.project.utils.ConstantPaths;
+import com.project.utils.dataReader.PropertyReader;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -8,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class ChromeFactory  extends AbstractDriver{
 
@@ -24,6 +26,10 @@ public class ChromeFactory  extends AbstractDriver{
         options.addArguments("--disable-extensions");
         options.addArguments("--disable-popup-blocking");
         options.addArguments("--disable-notifications");
+        if(Objects.equals(PropertyReader.getProperty("executionType"), "LocalHeadless"))
+        {
+            options.addArguments("--headless=new");
+        }
 
         options.setAcceptInsecureCerts(true);
         options.setUnhandledPromptBehaviour(

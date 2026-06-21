@@ -14,6 +14,7 @@ import org.testng.annotations.Test;
 @UI
 public class ChangingAccountInfoE2ETest extends BaseTest {
     String timeStamp= TimeManager.getTimeStamp();
+    LoginTest login=new LoginTest();
 
 @Test
 public void registration()
@@ -35,7 +36,7 @@ public void registration()
     @Test(dependsOnMethods = "registration")
     public void login()
     {
-        new LoginPage(driver)
+      new LoginPage(driver)
                 .navigate()
                 .verifyLoginPage(testData.getJasonKey("message.welcome"))
                 .enterLoginData( testData.getJasonKey("valid.email")+timeStamp+"@gmail.com",
