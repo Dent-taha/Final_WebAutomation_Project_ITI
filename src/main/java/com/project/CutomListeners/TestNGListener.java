@@ -68,7 +68,6 @@ public class TestNGListener implements IExecutionListener, IInvokedMethodListene
                     driver = provider.getWebDriver();
 
 
-                if (!Objects.equals(PropertyReader.getProperty("executionType"), "LocalHeadless")) {
                     switch (testResult.getStatus()) {
                         case ITestResult.SUCCESS ->
                                 ScreenShot.captureFullPage(driver, "passed " + testResult.getName());
@@ -77,7 +76,7 @@ public class TestNGListener implements IExecutionListener, IInvokedMethodListene
                                 ScreenShot.captureFullPage(driver, "failed " + testResult.getName());
 
                         case ITestResult.SKIP -> ScreenShot.captureFullPage(driver, "skipped " + testResult.getName());
-                    }
+
                 }
             }
 
