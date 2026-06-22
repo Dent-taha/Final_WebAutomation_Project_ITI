@@ -29,6 +29,9 @@ public class ChromeFactory  extends AbstractDriver{
         if(Objects.equals(PropertyReader.getProperty("executionType"), "LocalHeadless"))
         {
             options.addArguments("--headless=new");
+            options.addArguments("--window-size=1920,1080");
+            options.addArguments("--disable-dev-shm-usage");
+            options.addArguments("--no-sandbox");
         }
 
         options.setAcceptInsecureCerts(true);

@@ -25,7 +25,7 @@ public class WaitManagement {
     public  FluentWait<WebDriver> fluentWait()
     {
         return new FluentWait<>(driver)
-                .withTimeout(Duration.ofSeconds(5))
+                .withTimeout(Duration.ofSeconds(10))
                 .pollingEvery(Duration.ofMillis(100))
                 .ignoreAll(getExceptions());
     }

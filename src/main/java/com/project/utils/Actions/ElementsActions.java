@@ -159,7 +159,7 @@ public class ElementsActions {
 
         new Actions(driver)
                 .moveToElement(element)
-                .pause(Duration.ofSeconds(4))
+                .pause(Duration.ofSeconds(1))
                 .perform();
     }
     public  String  getValue(By locator)
