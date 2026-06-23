@@ -102,14 +102,14 @@ private static class lazyHolder {
                 logsManager.info("Allure  binaries already exist");
                 return;
             }
-            if(OSUtils.getCurrentOS().equals(OSUtils.OS.WINDOWS))
+            if(!OSUtils.getCurrentOS().equals(OSUtils.OS.WINDOWS))
             {
                 TerminalUtils.executeTerminalCommand("chmod ","u+x",ConstantPaths.USER_DIR.toString());
             }
             Path zipPath=downloadZIP(Version);
             extractZip(zipPath);
             logsManager.info("allure  binaries  downloaded and  extracted");
-            if(OSUtils.getCurrentOS().equals(OSUtils.OS.WINDOWS))
+            if(!OSUtils.getCurrentOS().equals(OSUtils.OS.WINDOWS))
             {
                 TerminalUtils.executeTerminalCommand("chmod ","u+x",getExecutable().toString());
             }
