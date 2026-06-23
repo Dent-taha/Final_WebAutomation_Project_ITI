@@ -33,4 +33,8 @@
         public static final String REPORT_EXTENSION=".html";
 
 
+        public static final String ALLURE_ZIP_BASE_URL="https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/";
+        public static final Path EXTRACTION_DIR=USER_HOME.resolve("m2/repository/allure");
+
+
     }

@@ -23,7 +23,7 @@ public static  void generateAllureReport(boolean isSingleFile)
     Path outPutFolder=isSingleFile? ConstantPaths.SINGLE_REPORT:ConstantPaths.FULL_REPORT;
     List<String> command= new ArrayList<>(
             List.of(
-                    "C:\\Users\\hp\\.m2\\repository\\Allure\\allure-2.41.0 (1)\\allure-2.41.0\\bin\\allure.bat"
+            AllureBinaryManager.getExecutable().toString()
             , "generate"
             ,String.valueOf(ConstantPaths.RESULTS)
             ,"-o"
