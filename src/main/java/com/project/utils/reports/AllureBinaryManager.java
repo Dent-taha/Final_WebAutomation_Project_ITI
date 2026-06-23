@@ -28,7 +28,8 @@ private static class lazyHolder {
                     .followRedirects(true).execute().url().toString();
             return  url.split("/tag/")[1];
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            logsManager.error("Cannot resolve Allure version", e.toString());
+            return "2.41.0";
         }
     }
 }

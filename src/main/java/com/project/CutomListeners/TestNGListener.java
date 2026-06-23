@@ -34,11 +34,18 @@ public class TestNGListener implements IExecutionListener, IInvokedMethodListene
     //C:\Users\hp\OneDrive\Desktop\Web_Auomation_Project\test-output\allure-results
 
     public void onExecutionFinish() {
+        try
+        {
         AllurerReportGenerator.copyHistoryToResultFolder();
         AllurerReportGenerator.generateAllureReport(false);
         AllurerReportGenerator.generateAllureReport(true);
         AllurerReportGenerator.openReport(AllurerReportGenerator.renameReport());
-        logsManager.info("test is finished");
+        logsManager.info("test is finished");}
+        catch (Exception e)
+        {
+            logsManager.error("Allure generation failed", e.getMessage());
+
+        }
 
     }
 
