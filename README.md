@@ -29,7 +29,7 @@ This project is a scalable and maintainable UI automation testing framework buil
 
 src
 ├── main
-│   ├── java
+│   ├── java"
 │   └── resources
 ├── test
 │   ├── java

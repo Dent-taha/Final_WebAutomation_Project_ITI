@@ -67,31 +67,22 @@ public class TestNGListener implements IExecutionListener, IInvokedMethodListene
 
     @Override
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
+        WebDriver driver = null;
 
         if(method.isTestMethod()) {
 
-            Class<?> testClass = testResult.getTestClass().getRealClass();
-
-            if(testClass.isAnnotationPresent(UI.class)) {
-
-                WebDriver driver = null;
+            if(testResult.getInstance().getClass().isAnnotationPresent(UI.class)) {
 
                 if(testResult.getInstance() instanceof WebDriverProvider provider)
                     driver = provider.getWebDriver();
-
-
-                    switch (testResult.getStatus()) {
+                switch (testResult.getStatus()) {
                         case ITestResult.SUCCESS ->
                                 ScreenShot.captureFullPage(driver, "passed " + testResult.getName());
-
                         case ITestResult.FAILURE ->
                                 ScreenShot.captureFullPage(driver, "failed " + testResult.getName());
-
                         case ITestResult.SKIP -> ScreenShot.captureFullPage(driver, "skipped " + testResult.getName());
-
                 }
             }
-
             SoftAssert.assertAll(testResult);
         }
     }

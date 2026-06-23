@@ -3,6 +3,8 @@ package com.project.utils;
 import com.project.utils.logs.logsManager;
 
 import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class FileUtils {
     private static final String userDir=System.getProperty("user.dir")+File.separator;
@@ -58,5 +60,37 @@ public class FileUtils {
         } catch (Exception e) {
             logsManager.error("failed to clean  dir ", file.getAbsolutePath(),e.getMessage());
         }
+    }
+
+    //  check  if  file  exist in downloads
+    public static boolean isFileExist(String fileName,int numberOfTries)
+    {
+        boolean isFileExisted=false;
+        int i=0;
+        while (i<numberOfTries && !isFileExisted)
+        {
+            try {
+                Path filePath=ConstantPaths.RESOURCES.resolve(fileName);
+                isFileExisted= Files.exists(filePath);
+            }
+            catch (Exception e)
+            {
+                logsManager.error(e.getMessage());
+            }
+            if(!isFileExisted)
+            {
+                try {
+                    Thread.sleep(500);
+                }
+                catch (Exception e)
+                {
+                    logsManager.error(e.getMessage());
+                }
+
+            }
+            i++;
+        }
+        return isFileExisted;
+
     }
 }
