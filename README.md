@@ -27,15 +27,95 @@ This project is a scalable and maintainable UI automation testing framework buil
 
 ## Project Structure
 
-src
-├── main
-│   ├── java
-│   └── resources
-├── test
-│   ├── java
-│   └── resources
-├── test-output
-└── pom.xml
+├── src/
+    ├── main/
+    │   ├── resources/
+    │   │   ├── allure.properties
+    │   │   ├── browser.properties
+    │   │   ├── environment.properties
+    │   │   ├── META-INF/
+    │   │   │   └── services/
+    │   │   │       └── org.testng.ITestNGListener
+    │   │   ├── test-data/
+    │   │   │   ├── register.json
+    │   │   │   ├── login.json
+    │   │   │   ├── account.json
+    │   │   │   ├── home_data.json
+    │   │   │   ├── apparel.json
+    │   │   │   ├── cart.json
+    │   │   │   └── e2e.json
+    │   │   └── log4j2.properties
+    │   └── java/
+    │       └── com/
+    │           └── project/
+    │               ├── drivers/
+    │               │   ├── WebDriverProvider.java
+    │               │   ├── AbstractDriver.java
+    │               │   ├── UI.java
+    │               │   ├── Browsers.java
+    │               │   ├── EdgeFactory.java
+    │               │   ├── GUI.java
+    │               │   └── ChromeFactory.java
+    │               ├── Pages/
+    │               │   ├── ComputersPage.java
+    │               │   ├── GiftCardsPage.java
+    │               │   ├── ElectronicsPage.java
+    │               │   ├── JewelryPage.java
+    │               │   ├── BooksPage.java
+    │               │   ├── DigitalDownloadsPage.java
+    │               │   ├── WishListPage.java
+    │               │   ├── RegisterPage.java
+    │               │   ├── CheckoutPage.java
+    │               │   ├── LoginPage.java
+    │               │   ├── ShoppingCart.java
+    │               │   ├── HomePage.java
+    │               │   ├── MyAccountPage.java
+    │               │   └── ApparelShoesPage.java
+    │               ├── utils/
+    │               │   ├── TimeManager.java
+    │               │   ├── OSUtils.java
+    │               │   ├── reports/
+    │               │   │   ├── AllureAttachmentManager.java
+    │               │   │   ├── AllureEnv.java
+    │               │   │   ├── AllurerReportGenerator.java
+    │               │   │   └── AllureBinaryManager.java
+    │               │   ├── logs/
+    │               │   │   └── logsManager.java
+    │               │   ├── Actions/
+    │               │   │   ├── BrowserActions.java
+    │               │   │   ├── FrameActions.java
+    │               │   │   ├── DropDownActions.java
+    │               │   │   ├── AlertActions.java
+    │               │   │   └── ElementsActions.java
+    │               │   ├── Validation/
+    │               │   │   ├── HardAssert.java
+    │               │   │   ├── BaseAssertions.java
+    │               │   │   └── SoftAssert.java
+    │               │   ├── TerminalUtils.java
+    │               │   ├── dataReader/
+    │               │   │   ├── JsonReader.java
+    │               │   │   └── PropertyReader.java
+    │               │   ├── WaitManagement.java
+    │               │   ├── ConstantPaths.java
+    │               │   ├── Media/
+    │               │   │   └── ScreenShot.java
+    │               │   └── FileUtils.java
+    │               ├── API/
+    │               │   ├── Builder.java
+    │               │   └── USerManagementAPI.java
+    │               └── CutomListeners/
+    │                   └── TestNGListener.java
+    └── test/
+        ├── Base/
+        │   └── BaseTest.java
+        └── UITests/
+            ├── HomeSmokeTest.java
+            ├── RegistrationTest.java
+            ├── LoginTest.java
+            ├── ChangingAccountInfoE2ETest.java
+            ├── E2ETest.java
+            ├── ApparelAndShoesTest.java
+            └── CartFunctionalityTest.java
 
 ## Running Tests
 
