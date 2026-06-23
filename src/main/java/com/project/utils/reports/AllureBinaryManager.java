@@ -22,6 +22,7 @@ private static class lazyHolder {
     static final String Version = resolveVersion();
 
     private static String resolveVersion() {
+        /*
         String url;
         try {
             url = Jsoup.connect("https://github.com/allure-framework/allure2/releases/tag/latest")
@@ -29,8 +30,9 @@ private static class lazyHolder {
             return  url.split("/tag/")[1];
         } catch (IOException e) {
             logsManager.error("Cannot resolve Allure version", e.toString());
-            return "2.41.0";
-        }
+            return "2.43.0";
+        }*/
+        return "2.43.0";
     }
 }
 
@@ -131,3 +133,4 @@ private static class lazyHolder {
 
 
 }
+

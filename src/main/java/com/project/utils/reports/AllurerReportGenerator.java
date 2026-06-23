@@ -8,6 +8,7 @@ import com.project.utils.logs.logsManager;
 import org.apache.commons.io.FileUtils;
 
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +34,12 @@ public static  void generateAllureReport(boolean isSingleFile)
     );
     if (isSingleFile)command.add("--single-file");
     TerminalUtils.executeTerminalCommand(command.toArray(new String[0]));
+    logsManager.info(
+            "Report exists = "
+                    + Files.exists(
+                    ConstantPaths.SINGLE_REPORT.resolve("index.html")
+            )
+    );
 }
     public static void openReport(String FileName)
     {
@@ -40,7 +47,7 @@ public static  void generateAllureReport(boolean isSingleFile)
         switch (OSUtils.getCurrentOS())
         {
             case WINDOWS -> TerminalUtils.executeTerminalCommand("cmd.exe","/c","start",reportPath.toString());
-            case MAC,LINUX -> TerminalUtils.executeTerminalCommand("open","\""+reportPath+"\"");
+            case MAC,LINUX -> TerminalUtils.executeTerminalCommand("xdg-open",reportPath.toString());
             default -> logsManager.warn("opening  allure report  is  not supported in this os  ");
         }
 

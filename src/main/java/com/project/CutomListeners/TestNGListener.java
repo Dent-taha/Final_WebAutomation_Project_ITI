@@ -8,6 +8,7 @@ import com.project.utils.Media.ScreenShot;
 import com.project.utils.Validation.SoftAssert;
 import com.project.utils.dataReader.PropertyReader;
 import com.project.utils.logs.logsManager;
+import com.project.utils.reports.AllureBinaryManager;
 import com.project.utils.reports.AllureEnv;
 import com.project.utils.reports.AllurerReportGenerator;
 import org.openqa.selenium.WebDriver;
@@ -24,7 +25,11 @@ public class TestNGListener implements IExecutionListener, IInvokedMethodListene
         createTestOutputDirs();
         logsManager.info("old  test output directories are  created");
         PropertyReader.loadProperties();
-
+        try {
+            AllureBinaryManager.downloadAndExtract();
+        } catch (Exception e) {
+            logsManager.error("Failed to prepare Allure binaries");
+        }
         logsManager.info("properties are  loaded");
         AllureEnv.setAllureEnvVariables();
         logsManager.info("allure  ENV  variable are set");
