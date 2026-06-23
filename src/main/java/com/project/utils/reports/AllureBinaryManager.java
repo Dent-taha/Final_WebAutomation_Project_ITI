@@ -107,14 +107,14 @@ private static class lazyHolder {
             }
             if(!OSUtils.getCurrentOS().equals(OSUtils.OS.WINDOWS))
             {
-                TerminalUtils.executeTerminalCommand("chmod ","u+x",ConstantPaths.USER_DIR.toString());
+                TerminalUtils.executeTerminalCommand("chmod","u+x",ConstantPaths.USER_DIR.toString());
             }
             Path zipPath=downloadZIP(Version);
             extractZip(zipPath);
             logsManager.info("allure  binaries  downloaded and  extracted");
             if(!OSUtils.getCurrentOS().equals(OSUtils.OS.WINDOWS))
             {
-                TerminalUtils.executeTerminalCommand("chmod ","u+x",getExecutable().toString());
+                TerminalUtils.executeTerminalCommand("chmod","u+x",getExecutable().toString());
             }
             Files.deleteIfExists(Files.list(ConstantPaths.EXTRACTION_DIR).filter(p->p.toString().endsWith(".zip")).findFirst().orElseThrow());
         } catch (Exception e) {
